@@ -1,0 +1,100 @@
+baseURL = "http://localhost:1313/"
+title = "IIR 2025"
+author = "IIR Committee"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+[params]
+
+  showBlog = false
+  mainSections = ['news']
+
+  googleFonts = true
+
+  [params.logo]
+    main = "img/logo/IIR25_temporary_colored_logo.png"
+    alt = "IIR 2025 Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-15"
+
+  [params.site]
+    name = "IIR 2025"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "15th Italian Information Retrieval Workshop - September 2025, Cagliari, Italy"
+    meta_og_title = "IIR 2025"
+    meta_og_type = "website"
+    meta_og_url = "https://iir2025.unica.it"
+    meta_og_description = "15th Italian Information Retrieval Workshop - September 2025, Cagliari, Italy"
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@iir2025"
+    meta_twitter_creator = "@iir2025"
+
+[menu]
+
+  # Main Navigation Menu
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About IIR 2025"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "cfp"
+    name = "Call For Papers"
+    url = "/call-for-papers/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "dates"
+    name = "Important Dates"
+    url = "/important-dates/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "social"
+    name = "Social Dinner"
+    url = "/social-dinner/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "organizers"
+    name = "Organizers"
+    url = "/organizers/"
+    weight = 6
+
+  [[menu.main]]
+    identifier = "venue"
+    name = "Venue"
+    url = "/venue/"
+    weight = 7
+
+  [[menu.main]]
+    identifier = "registration"
+    name = "Registration"
+    url = "/registration/"
+    weight = 8
