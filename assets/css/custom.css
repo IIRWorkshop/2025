@@ -615,3 +615,31 @@ body:not(.homepage) .scroll-top {
     gap: 1rem;
   }
 }
+
+/* Text and image side-by-side layout */
+.text-image-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text-image-content {
+  flex: 1.5;
+}
+
+.text-image-figure {
+  flex: 1;
+}
+
+.text-image-figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+  .text-image-container {
+    flex-direction: column;
+  }
+}
