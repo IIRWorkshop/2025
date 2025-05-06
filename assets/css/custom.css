@@ -15,7 +15,7 @@ body {
 
 /* Header styling */
 header {
-  background-color: white;
+  background-color: #f9f7f1;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   width: 100%;
   height: auto; /* Allow header to adjust to content height */
@@ -265,6 +265,23 @@ body, body.homepage, .strip-spacer, main, #content {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Add this new class for dual shadows (top and bottom) */
+.shadow-dual {
+  box-shadow: 
+    0 -4px 6px rgba(0, 0, 0, 0.05),  /* Top shadow */
+    0 4px 6px rgba(0, 0, 0, 0.05);   /* Bottom shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 0.25rem; 
+  padding: 1rem;
+}
+
+.shadow-dual:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 -8px 15px rgba(0, 0, 0, 0.1),  /* Enhanced top shadow on hover */
+    0 10px 15px rgba(0, 0, 0, 0.1);  /* Enhanced bottom shadow on hover */
+}
+
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   color: #2c5282;
@@ -280,6 +297,10 @@ h2 {
   font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+h2.h2-no-margin-top {
+  margin-top: 0;
 }
 
 /* Content pages */
@@ -298,7 +319,7 @@ h2 {
 
 .content.prose ul, 
 .content.prose ol {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   padding-left: 1.5rem;
 }
 
@@ -325,6 +346,23 @@ h2 {
 .content ol li ul,
 .content ul li ol {
   margin: 0.5rem 0;
+  list-style-type: circle;
+}
+
+.content ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.content ol {
+  list-style-type: decimal;
+  padding-left: 2rem;
+}
+
+/* Ensure nested lists display properly */
+.content ul li,
+.content ol li {
+  display: list-item;
 }
 
 /* Footer styling - more compact */
@@ -339,11 +377,12 @@ footer a {
 }
 
 footer .first-layer-footer {
-  width: 100% !important;
-  padding: 0.5rem 0 !important;
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
+  width: 100%;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
 
 /* Hide footer navigation menu */
@@ -503,5 +542,76 @@ body:not(.homepage) .scroll-top {
   #content > div:not(.swiper-container):not(footer),
   .mx-auto:not(footer .mx-auto) {
     width: 95% !important;
+  }
+}
+
+/* Organizers page styling */
+.organizers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.organizer-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.organizer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.organizer-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  border: 3px solid #f1f5f9;
+}
+
+.organizer-card h3 {
+  margin: 0.5rem 0;
+  color: #2c5282;
+}
+
+.organizer-card p {
+  margin: 0.25rem 0;
+  color: #4a5568;
+}
+
+.organizer-card a {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.organizer-card a:hover {
+  text-decoration: underline;
+}
+
+/* Make organizers grid responsive */
+@media (max-width: 768px) {
+  .organizers-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .organizer-image {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .organizers-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }

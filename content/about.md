@@ -9,7 +9,7 @@ The purpose of the Italian Information Retrieval Workshop (IIR) is to provide a 
 
 Traditionally IIR has been a focal point for the Italian Information Retrieval community, but it strongly encourages and welcomes participation from international researchers to enrich and expand collaborative opportunities.
 
-IIR 2025 is the 15th edition of the Italian Information Retrieval Workshop. It will take place in September 2025 at the University of Cagliari ([https://www.unica.it/](https://www.unica.it/)).
+IIR 2025 is the 15th edition of the Italian Information Retrieval Workshop. It will take place on 3 September 2025 in Cagliari. <!-- at the University of Cagliari ([https://www.unica.it/](https://www.unica.it/)). -->
 
 ## Registration
 

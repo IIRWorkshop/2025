@@ -11,11 +11,11 @@
                 {{ range .Site.Data.features }}
                 <div class="mb-6 last:mb-0"> <!-- Add bottom margin except for last item -->
                     {{if .link }}<a href="{{ .link }}" class="block h-full">{{ end }}
-                        <div class="shadow-white text-center px-6 py-6 flex flex-col items-center duration-300 transform hover:-translate-y-1 hover:shadow-lg rounded">
+                        <div class="shadow-dual text-center px-6 py-6 flex flex-col items-center duration-300 transform hover:-translate-y-1 hover:shadow-lg rounded">
                             {{if .icon }}
                             <span class="{{ .icon }} text-5xl mb-4"></span>
                             {{ end }}
-                            <h2 class="text-2xl mb-3">{{ .title }}</h2>
+                            <h2 class="h2-no-margin-top text-2xl mb-3">{{ .title }}</h2>
                             <p class="sans">{{ .description | markdownify }}</p>
                         </div>
                     {{if .link }}</a>{{ end }}

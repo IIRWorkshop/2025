@@ -23,13 +23,13 @@ Specific details about the conference venue within the university will be provid
 
 ### By Air
 Cagliari-Elmas Airport (CAG) is the main airport serving Cagliari. It offers direct flights from major Italian cities and several European destinations. From the airport, you can reach the city center by:
-- Train: Takes about 5-7 minutes to reach Cagliari Centrale station
+- Train: Takes about 5-7 minutes to reach Cagliari central station
 - Taxi: Available outside the terminal
 - Bus: ARST buses connect the airport to the city center
 
 ### By Sea
 Cagliari has a major port with ferry connections to mainland Italy (mainly from Civitavecchia/Rome, Naples, Palermo, and Genoa). Ferry companies operating these routes include Tirrenia, Grimaldi Lines, and GNV.
 
-## Accommodation
+<!-- ## Accommodation
 
-Details about recommended accommodation options near the venue will be provided closer to the event date.
+Details about recommended accommodation options near the venue will be provided closer to the event date. -->

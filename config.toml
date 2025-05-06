@@ -76,9 +76,9 @@ enableRobotsTXT = true
     weight = 4
 
   [[menu.main]]
-    identifier = "social"
-    name = "Social Dinner"
-    url = "/social-dinner/"
+    identifier = "venue"
+    name = "Venue"
+    url = "/venue/"
     weight = 5
 
   [[menu.main]]
@@ -86,15 +86,3 @@ enableRobotsTXT = true
     name = "Organizers"
     url = "/organizers/"
     weight = 6
-
-  [[menu.main]]
-    identifier = "venue"
-    name = "Venue"
-    url = "/venue/"
-    weight = 7
-
-  [[menu.main]]
-    identifier = "registration"
-    name = "Registration"
-    url = "/registration/"
-    weight = 8
