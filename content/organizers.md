@@ -46,4 +46,4 @@ To be announced.
 
 ## Contact
 
-For any inquiries about IIR 2025, please contact us at [iir2025@unica.it](mailto:iir2025@unica.it).
+For any inquiries about IIR 2025, please contact us at [iirconference@outlook.it](mailto:iirconference@outlook.it).

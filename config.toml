@@ -39,11 +39,11 @@ enableRobotsTXT = true
     fontawesome = true
 
   [params.homepage_meta_tags]
-    meta_description = "15th Italian Information Retrieval Workshop - September 2025, Cagliari, Italy"
+    meta_description = "15th Italian Information Retrieval Workshop - 3 September 2025, Cagliari, Italy"
     meta_og_title = "IIR 2025"
     meta_og_type = "website"
-    meta_og_url = "https://iir2025.unica.it"
-    meta_og_description = "15th Italian Information Retrieval Workshop - September 2025, Cagliari, Italy"
+    meta_og_url = "https://IIRConf.github.io/IIR2025"
+    meta_og_description = "15th Italian Information Retrieval Workshop - 3 September 2025, Cagliari, Italy"
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@iir2025"
     meta_twitter_creator = "@iir2025"
