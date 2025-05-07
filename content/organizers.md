@@ -1,5 +1,5 @@
 +++
-title = "Organizers"
+title = "Organizing Committee"
 description = "The team behind IIR 2025"
 +++
 
@@ -40,9 +40,9 @@ The Italian Information Retrieval Workshop 2025 is organized by a dedicated team
 {{< organizer name="Silvia Maria Massa" image="massa.jpg" affiliation="University of Cagliari" country="Italy" >}}
 {{< /organizers >}}
 
-## Program Committee
+<!-- ## Program Committee
 
-To be announced.
+To be announced. -->
 
 ## Contact
 

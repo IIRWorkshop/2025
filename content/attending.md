@@ -1,6 +1,6 @@
 +++
-title = "Venue"
-description = "IIR 2025 Venue Information - Cagliari, Sardinia"
+title = "Attending"
+description = "IIR 2025 Attending Information - Cagliari, Sardinia"
 +++
 
 # Venue
@@ -21,7 +21,11 @@ The historic district of Cagliari, known as Castello, sits on a hill overlooking
 Sardinia is the second-largest island in the Mediterranean Sea and offers visitors a blend of natural beauty, ancient history, and unique culture. With its pristine beaches, crystal-clear waters, and striking landscapes, the island is often referred to as a paradise on earth.
 {{< /text-image >}}
 
-## University of Cagliari
+# Registration
+
+Participation in the IIR 2025 workshop will be _free of charge_. However, advance registration will be strictly required.
+
+<!-- ## University of Cagliari
 
 The University of Cagliari (Università degli Studi di Cagliari) was founded in 1606 and is one of the oldest universities in Italy. It is located in the heart of Cagliari and hosts approximately 25,000 students.
 
@@ -36,7 +40,7 @@ Cagliari-Elmas Airport (CAG) is the main airport serving Cagliari. It offers dir
 - Bus: ARST buses connect the airport to the city center
 
 ### By Sea
-Cagliari has a major port with ferry connections to mainland Italy (mainly from Civitavecchia/Rome, Naples, Palermo, and Genoa). Ferry companies operating these routes include Tirrenia, Grimaldi Lines, and GNV.
+Cagliari has a major port with ferry connections to mainland Italy (mainly from Civitavecchia/Rome, Naples, Palermo, and Genoa). Ferry companies operating these routes include Tirrenia, Grimaldi Lines, and GNV. -->
 
 <!-- ## Accommodation
 

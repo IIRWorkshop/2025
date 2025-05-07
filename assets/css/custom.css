@@ -643,3 +643,107 @@ body:not(.homepage) .scroll-top {
     flex-direction: column;
   }
 }
+
+.about-content p {
+  margin-bottom: 1rem;
+}
+
+/* Dropdown menu styling */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-arrow {
+  font-size: 1rem;
+  margin-left: 0.25rem;
+  transition: transform 0.2s;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+  overflow: hidden;
+  max-height: 80vh; /* Set maximum height */
+  overflow-y: auto; /* Add scrolling for many items */
+  margin-top: 10px !important;
+  display: none; /* Hidden by default */
+}
+
+/* Show dropdown when hidden class is removed by JavaScript */
+.dropdown-menu:not(.hidden) {
+  display: block;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #2c5282 !important; /* Ensure consistent link color with main menu */
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+  margin: 0 !important;
+  white-space: nowrap;
+  width: 100% !important; /* Ensure full width */
+}
+
+.dropdown-menu a:hover {
+  background-color: #f5f5f5;
+  text-decoration: none;
+  color: #1a365d !important; /* Match hover color of main menu links */
+}
+
+/* Mobile dropdown styling */
+@media (max-width: 1023px) {
+  .dropdown {
+    width: 100%;
+  }
+  
+  .dropdown-toggle {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border-left: 2px solid #f0f0f0;
+    margin-left: 1rem;
+    border-radius: 0;
+    margin-top: 0 !important;
+  }
+  
+  .dropdown-menu a {
+    padding-left: 1.5rem;
+  }
+}
+
+/* Desktop hover behavior - Only apply on larger screens */
+@media (min-width: 1024px) {
+  /* Create a hover area that bridges the gap between menu and dropdown */
+  .dropdown::after {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 100%;
+    bottom: -10px;
+    left: 0;
+  }
+
+  /* Desktop: show dropdown on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}

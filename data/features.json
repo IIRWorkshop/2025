@@ -1,11 +1,5 @@
 [
   {
-    "title": "About IIR 2025",
-    "description": "The purpose of the Italian Information Retrieval Workshop (IIR) is to provide a meeting forum for stimulating and disseminating research in Information Retrieval, where researchers and other academic and industrial players interested in IR research can network and discuss their research results in an informal way.",
-    "icon": "icon-people_outline",
-    "link": "/about/"
-  },
-  {
     "title": "Call for Papers",
     "description": "IIR 2025 welcomes submissions on all aspects of Information Retrieval. We particularly encourage PhD students and Early-Stage Researchers to submit their research.",
     "icon": "icon-description",

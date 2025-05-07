@@ -66,7 +66,7 @@ IIR offers the opportunity to present and discuss both theoretical and empirical
     - Applications of search and recommendation to social good
     - IR and RS with new devices, including wearable computing, neuroinformatics, sensors, Internet-of-Things, vehicles
 
-## Submissions
+## Submission Guidelines
 
 We particularly encourage PhD students or Early-Stage Researchers to submit their research. We also welcome contributions from the industry and papers describing ongoing funded projects which may result useful to the IR community.
 
@@ -82,8 +82,12 @@ Submissions of research papers must be in English, single blind, in PDF format i
 
 Submission will be peer-reviewed and single-blind. The authors of the accepted papers will have the possibility to decide whether the paper will appear or not in the CEUR Workshop Series Proceedings.
 
-Submission will be through a dedicated submission system. Details will be announced soon.
+Submission will be through a dedicated submission system. CMT submission link will be coming shortly.
 
 ## Important Dates
 
 Please refer to the corresponding page [Important Dates](/important-dates/)
+
+## Acknowledgements
+
+The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
