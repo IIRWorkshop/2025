@@ -1,7 +1,4 @@
 baseURL = "https://iirconf.github.io/IIR2025/"
-# Add relativeURLs and uglyURLs parameters for GitHub Pages compatibility
-relativeURLs = true
-uglyURLs = false
 title = "IIR 2025"
 author = "IIR Committee"
 languageCode = "en"
@@ -20,7 +17,9 @@ enableRobotsTXT = true
 #disqusShortname = ""
 
 [params]
-
+  # Parameter specifically for GitHub Pages deployment
+  isGitHubPages = true
+  
   showBlog = false
   mainSections = ['news']
 

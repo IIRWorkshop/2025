@@ -19,7 +19,7 @@
                 <img src="{{ $imageResized.RelPermalink }}" alt="{{ or .alt "IIR 2025 Conference" }}">
             {{ else }}
                 <!-- Fallback to static directory if not found in assets -->
-                <img src="{{ .image }}" alt="{{ or .alt "IIR 2025 Conference" }}">
+                <img src="{{ .image | absURL }}" alt="{{ or .alt "IIR 2025 Conference" }}">
             {{ end }}
         </div>
         {{ end }}

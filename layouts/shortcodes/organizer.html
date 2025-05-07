@@ -1,5 +1,9 @@
 <div class="organizer-card">
-  <img src="/img/organizers/{{ .Get "image" }}" alt="{{ .Get "name" }}" class="organizer-image">
+  {{- $imagePath := printf "/img/organizers/%s" (.Get "image") -}}
+  {{- if $.Site.Params.isGitHubPages -}}
+    {{- $imagePath = printf "/IIR2025%s" $imagePath -}}
+  {{- end -}}
+  <img src="{{ $imagePath }}" alt="{{ .Get "name" }}" class="organizer-image">
   <h3>{{ .Get "name" }}</h3>
   <p>{{ .Get "affiliation" }}, {{ .Get "country" }}</p>
 </div>

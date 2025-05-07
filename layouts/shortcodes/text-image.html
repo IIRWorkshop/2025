@@ -3,6 +3,10 @@
     {{ .Inner }}
   </div>
   <div class="text-image-figure">
-    <img src="{{ .Get "img" }}" alt="{{ .Get "alt" }}">
+    {{- $imagePath := .Get "img" -}}
+    {{- if and $.Site.Params.isGitHubPages (hasPrefix $imagePath "/img/") -}}
+      {{- $imagePath = printf "/IIR2025%s" $imagePath -}}
+    {{- end -}}
+    <img src="{{ $imagePath }}" alt="{{ .Get "alt" }}">
   </div>
 </div>

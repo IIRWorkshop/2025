@@ -2,8 +2,12 @@
     <nav class="flex items-center justify-between bg-opacity-100 p-6">
         <!-- Logo on the left -->
         <div class="flex items-center flex-shrink-0 text-xl text-grey-900">
+            {{- $logoPath := .Site.Params.logo.main -}}
+            {{- if and .Site.Params.isGitHubPages (hasPrefix $logoPath "img/") -}}
+                {{- $logoPath = printf "/IIR2025/%s" $logoPath -}}
+            {{- end -}}
             <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}"
-                    class="{{ .Site.Params.logo.size }} mr-3" src="{{ .Site.Params.logo.main | relURL }}"></a>
+                    class="{{ .Site.Params.logo.size }} mr-3" src="{{ $logoPath }}"></a>
         </div>
         
         <!-- Mobile menu button - using Material Icons -->
