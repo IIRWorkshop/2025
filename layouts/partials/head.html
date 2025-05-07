@@ -10,7 +10,7 @@
 {{ end }}
 
 <!-- Force loading styles in the correct order to prevent overrides -->
-{{ $style := resources.Get "css/style.css" | css.PostCSS }}
+<!-- {{ $style := resources.Get "css/style.css" | css.PostCSS }} -->
 {{ if hugo.IsProduction }}
   {{ $style = $style | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" data-priority="high" />
