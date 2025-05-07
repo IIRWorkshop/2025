@@ -6,7 +6,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href='{{ "favicon-16x16.png" | relURL }}'>
 <link rel="manifest" href='{{ "site.webmanifest" | relURL }}'>
 {{ if .Site.Params.icon.fontawesome }}
-<link href='{{ "/css/fa6.min.css" | relURL }}' rel="stylesheet" type="text/css">
+<link href='{{ "css/fa6.min.css" | relURL }}' rel="stylesheet" type="text/css">
 {{ end }}
 
 <!-- Force loading styles in the correct order to prevent overrides -->
@@ -22,7 +22,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 {{ if .IsHome }}
-<link rel="stylesheet" href='{{ "/css/swiper-bundle.min.css" | relURL }}'>
+<link rel="stylesheet" href='{{ "css/swiper-bundle.min.css" | relURL }}'>
 {{ end }}
 
 <!-- Load custom CSS last to prevent it from overriding Tailwind utilities -->

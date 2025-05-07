@@ -423,6 +423,15 @@ footer .copy {
   text-decoration: none;
 }
 
+/* Ensure Font Awesome icons display correctly */
+.social-icons i, 
+.social-icons .fab, 
+.social-icons .fa-brands {
+  font-size: 1rem;
+  line-height: 1;
+  color: white;
+}
+
 /* Navigation menu */
 .nav-link {
   font-weight: 500;
