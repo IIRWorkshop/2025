@@ -1,17 +1,10 @@
-baseURL = "https://IIRConf.github.io/IIR2025"
+baseURL = "http://localhost:1313/IIR2025"
 title = "IIR 2025"
 author = "IIR Committee"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
-theme = "tella"
 enableRobotsTXT = true
-
-# Please enable this feature if the site is available in Japanese, Chinese or Korean.
-#hasCJKLanguage = true
-
-# If you're using Google Analytics, you can enable this feature.
-#googleAnalytics = "UA-12345678-1"
 
 # Disqus Comment System
 #disqusShortname = ""
