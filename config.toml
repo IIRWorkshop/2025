@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://iirconf.github.io/IIR2025/"
 title = "IIR 2025"
 author = "IIR Committee"
 languageCode = "en"
