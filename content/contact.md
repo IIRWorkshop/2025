@@ -7,7 +7,7 @@ description = "Contact information for IIR 2025"
 
 For any inquiries regarding IIR 2025, please contact us at:
 
-**Email**: [iirconference@outlook.it](mailto:iirconference@outlook.it)
+**Email**: [iirworkshop@outlook.it](mailto:iirworkshop@outlook.it)
 
 ## Conference Venue
 

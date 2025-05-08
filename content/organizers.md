@@ -46,4 +46,4 @@ To be announced. -->
 
 ## Contact
 
-For any inquiries about IIR 2025, please contact us at [iirconference@outlook.it](mailto:iirconference@outlook.it).
+For any inquiries about IIR 2025, please contact us at [iirworkshop@outlook.it](mailto:iirworkshop@outlook.it).

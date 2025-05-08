@@ -15,4 +15,4 @@ The social dinner is not included in the registration and will be payable separa
 
 ## Contact
 
-If you have any questions regarding registration, please contact us at [iirconference@outlook.it](mailto:iirconference@outlook.it).
+If you have any questions regarding registration, please contact us at [iirworkshop@outlook.it](mailto:iirworkshop@outlook.it).
