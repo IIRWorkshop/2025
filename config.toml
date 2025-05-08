@@ -53,15 +53,21 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
+    identifier = "dates"
+    name = "Important Dates"
+    url = "/important-dates/"
+    weight = 2
+  
+  [[menu.main]]
     identifier = "cfp"
     name = "Call for Papers"
     url = "/call-for-papers/"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     name = "Author Guidelines"
     url = "#"
-    weight = 3
+    weight = 4
 
     [[menu.main]]
       parent = "Author Guidelines"
@@ -98,12 +104,6 @@ enableRobotsTXT = true
       name = "ACM Privacy Policy"
       url = "https://www.acm.org/about-acm/privacy-policy"
       weight = 6
-
-  [[menu.main]]
-    identifier = "dates"
-    name = "Important Dates"
-    url = "/important-dates/"
-    weight = 4
 
   [[menu.main]]
     identifier = "attending"
