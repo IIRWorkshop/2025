@@ -23,7 +23,11 @@
                     <!-- Handle GitHub Pages URLs by checking if site parameter is set -->
                     {{ $url := .link }}
                     {{ if and $.Site.Params.isGitHubPages (hasPrefix $url "/") (not (hasPrefix $url "http")) }}
-                        {{ $url = printf "/IIR2025%s" $url }}
+                        {{- $basePath := urls.Parse $.Site.BaseURL -}}
+                        {{- $pathOnly := $basePath.Path -}}
+                        {{- if ne $pathOnly "/" -}}
+                            {{ $url = printf "%s%s" $pathOnly $url }}
+                        {{- end -}}
                     {{ end }}
                     <a href="{{ $url }}" class="block h-full">
                     {{ end }}

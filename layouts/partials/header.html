@@ -4,7 +4,11 @@
         <div class="flex items-center flex-shrink-0 text-xl text-grey-900">
             {{- $logoPath := .Site.Params.logo.main -}}
             {{- if and .Site.Params.isGitHubPages (hasPrefix $logoPath "img/") -}}
-                {{- $logoPath = printf "/IIR2025/%s" $logoPath -}}
+                {{- $basePath := urls.Parse .Site.BaseURL -}}
+                {{- $pathOnly := $basePath.Path -}}
+                {{- if ne $pathOnly "/" -}}
+                    {{- $logoPath = printf "%s/%s" $pathOnly $logoPath -}}
+                {{- end -}}
             {{- end -}}
             <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}"
                     class="{{ .Site.Params.logo.size }} mr-3" src="{{ $logoPath }}"></a>

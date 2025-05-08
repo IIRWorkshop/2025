@@ -1,7 +1,11 @@
 <div class="organizer-card">
   {{- $imagePath := printf "/img/organizers/%s" (.Get "image") -}}
   {{- if $.Site.Params.isGitHubPages -}}
-    {{- $imagePath = printf "/IIR2025%s" $imagePath -}}
+    {{- $basePath := urls.Parse $.Site.BaseURL -}}
+    {{- $pathOnly := $basePath.Path -}}
+    {{- if ne $pathOnly "/" -}}
+      {{- $imagePath = printf "%s%s" $pathOnly $imagePath -}}
+    {{- end -}}
   {{- end -}}
   <img src="{{ $imagePath }}" alt="{{ .Get "name" }}" class="organizer-image">
   <h3>{{ .Get "name" }}</h3>
