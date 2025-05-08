@@ -1,15 +1,23 @@
 {{ define "hugoGetImagePath" }}
   {{- $imgPath := . -}}
-  {{- if and ($.Site.Params.isGitHubPages) (hasPrefix $imgPath "/img/") -}}
-    {{- $imgPath = printf "/IIR2025%s" $imgPath -}}
+  {{- if $.Site.Params.isGitHubPages -}}
+    {{- $basePath := urls.Parse $.Site.BaseURL -}}
+    {{- $pathOnly := $basePath.Path -}}
+    {{- if and (hasPrefix $imgPath "/img/") (ne $pathOnly "/") -}}
+      {{- $imgPath = printf "%s%s" $pathOnly $imgPath -}}
+    {{- end -}}
   {{- end -}}
   {{- return $imgPath -}}
 {{ end }}
 
 {{ define "hugoGetAbsoluteURL" }}
   {{- $url := . -}}
-  {{- if and ($.Site.Params.isGitHubPages) (hasPrefix $url "/") (not (hasPrefix $url "http")) -}}
-    {{- $url = printf "/IIR2025%s" $url -}}
+  {{- if $.Site.Params.isGitHubPages -}}
+    {{- $basePath := urls.Parse $.Site.BaseURL -}}
+    {{- $pathOnly := $basePath.Path -}}
+    {{- if and (hasPrefix $url "/") (not (hasPrefix $url "http")) (ne $pathOnly "/") -}}
+      {{- $url = printf "%s%s" $pathOnly $url -}}
+    {{- end -}}
   {{- end -}}
   {{- return $url -}}
 {{ end }}
