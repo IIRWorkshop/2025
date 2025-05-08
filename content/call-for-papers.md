@@ -86,7 +86,7 @@ Submission will be through a dedicated submission system. CMT submission link wi
 
 ## Important Dates
 
-Please refer to the corresponding page [Important Dates](/important-dates/)
+Please refer to the corresponding page [Important Dates]({{< relref "/important-dates" >}}).
 
 ## Acknowledgements
 
