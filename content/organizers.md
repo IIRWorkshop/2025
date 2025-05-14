@@ -24,7 +24,7 @@ The Italian Information Retrieval Workshop 2025 is organized by a dedicated team
 ## Proceedings Chairs
 
 {{< organizers >}}
-{{< organizer name="Angelo Geninatti Cossatin" image="geninatti.jpg" affiliation="University of Padova" country="Italy" >}}
+{{< organizer name="Angelo Geninatti Cossatin" image="geninatti.jpg" affiliation="University of Torino" country="Italy" >}}
 {{< organizer name="Erasmo Purificato" image="purificato.jpg" affiliation="European Commission, Joint Research Centre (JRC)" country="Italy" >}}
 {{< /organizers >}}
 
