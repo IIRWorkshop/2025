@@ -82,7 +82,7 @@ Submissions of research papers must be in English, single blind, in PDF format i
 
 Submission will be peer-reviewed and single-blind. The authors of the accepted papers will have the possibility to decide whether the paper will appear or not in the CEUR Workshop Series Proceedings.
 
-Submission will be through a dedicated submission system. CMT submission link will be coming shortly.
+Submission will be through the CMT submission system at the following link https://cmt3.research.microsoft.com/IIR2025.
 
 ## Important Dates
 
