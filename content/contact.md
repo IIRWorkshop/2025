@@ -21,4 +21,4 @@ Italy
 Stay updated with the latest information about IIR 2025:
 
 - Twitter: [@iir_ws](https://x.com/iir_conf)
-- LinkedIn: [IIR Workshop](https://www.linkedin.com/in/iir-conference-42819a362/)
+- LinkedIn: [IIR Workshop](https://www.linkedin.com/in/iir-workshop/)
