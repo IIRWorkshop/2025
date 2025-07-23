@@ -53,21 +53,59 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
-    identifier = "dates"
     name = "Important Dates"
     url = "/important-dates/"
     weight = 2
   
   [[menu.main]]
-    identifier = "cfp"
     name = "Call for Papers"
     url = "/call-for-papers/"
     weight = 3
 
   [[menu.main]]
+    name = "Special Issue"
+    url = "https://link.springer.com/collections/eeagjdiedf"
+    weight = 4
+
+  [[menu.main]]
+    name = "Program"
+    url = "#"
+    weight = 5
+
+    [[menu.main]]
+      parent = "Program"
+      name = "Program Overview"
+      url = "/program-overview/"
+      weight = 1
+
+    [[menu.main]]
+      parent = "Program"
+      name = "Detailed Program"
+      url = "/detailed-program/"
+      weight = 2
+
+    [[menu.main]]
+      parent = "Program"
+      name = "Accepted Papers"
+      url = "/accepted-papers/"
+      weight = 3
+
+    [[menu.main]]
+      parent = "Program"
+      name = "Keynote Speakers"
+      url = "/keynote-speakers/"
+      weight = 4
+
+    [[menu.main]]
+      parent = "Program"
+      name = "Social Events"
+      url = "/social-events/"
+      weight = 5
+
+  [[menu.main]]
     name = "Author Guidelines"
     url = "#"
-    weight = 4
+    weight = 6
 
     [[menu.main]]
       parent = "Author Guidelines"
@@ -105,14 +143,48 @@ enableRobotsTXT = true
       url = "https://www.acm.org/about-acm/privacy-policy"
       weight = 6
 
-  [[menu.main]]
-    identifier = "attending"
-    name = "Attending"
-    url = "/attending/"
-    weight = 5
+   [[menu.main]]
+    name = "Attend"
+    url = "#"
+    weight = 7
+
+    [[menu.main]]
+      parent = "Attend"
+      name = "Registration"
+      url = "https://forms.gle/ebRjkjoghxSr7YTX8"
+      weight = 1
+
+    [[menu.main]]
+      parent = "Attend"
+      name = "Travel Information"
+      url = "/travel-information/"
+      weight = 2
+
+    [[menu.main]]
+      parent = "Attend"
+      name = "Venue Information"
+      url = "/venue-information/"
+      weight = 3
+
+    [[menu.main]]
+      parent = "Attend"
+      name = "Touristic Information"
+      url = "/touristic-information/"
+      weight = 4
+
+    [[menu.main]]
+      parent = "Attend"
+      name = "Accommodation Information"
+      url = "/accommodation-information/"
+      weight = 5
+
+    [[menu.main]]
+      parent = "Attend"
+      name = "Visa Information"
+      url = "/visa-information/"
+      weight = 6
   
   [[menu.main]]
-    identifier = "organizers"
     name = "Organizing Committee"
     url = "/organizers/"
-    weight = 6
+    weight = 8

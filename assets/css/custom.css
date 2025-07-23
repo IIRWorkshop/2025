@@ -385,6 +385,27 @@ footer .first-layer-footer {
   gap: 3rem;
 }
 
+footer .second-layer-footer {
+  width: 100%;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  footer .second-layer-footer a {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  footer .second-layer-footer a {
+    max-width: 80%;
+  }
+}
+
 /* Hide footer navigation menu */
 footer .flex-row.items-center.text-lg,
 footer .flex-row.items-center.text-sm {
