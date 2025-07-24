@@ -777,3 +777,10 @@ body:not(.homepage) .scroll-top {
     display: block;
   }
 }
+
+.aula-baffi {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  margin: 1%;
+}

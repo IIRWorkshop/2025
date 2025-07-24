@@ -74,33 +74,27 @@ enableRobotsTXT = true
 
     [[menu.main]]
       parent = "Program"
-      name = "Program Overview"
-      url = "/program-overview/"
+      name = "Schedule Overview"
+      url = "/schedule-overview/"
       weight = 1
-
-    [[menu.main]]
-      parent = "Program"
-      name = "Detailed Program"
-      url = "/detailed-program/"
-      weight = 2
 
     [[menu.main]]
       parent = "Program"
       name = "Accepted Papers"
       url = "/accepted-papers/"
-      weight = 3
+      weight = 2
 
     [[menu.main]]
       parent = "Program"
       name = "Keynote Speakers"
       url = "/keynote-speakers/"
-      weight = 4
+      weight = 3
 
     [[menu.main]]
       parent = "Program"
       name = "Social Events"
       url = "/social-events/"
-      weight = 5
+      weight = 4
 
   [[menu.main]]
     name = "Author Guidelines"
@@ -177,12 +171,6 @@ enableRobotsTXT = true
       name = "Accommodation Information"
       url = "/accommodation-information/"
       weight = 5
-
-    [[menu.main]]
-      parent = "Attend"
-      name = "Visa Information"
-      url = "/visa-information/"
-      weight = 6
   
   [[menu.main]]
     name = "Organizing Committee"
