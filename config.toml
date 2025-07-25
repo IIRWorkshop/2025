@@ -43,6 +43,10 @@ enableRobotsTXT = true
     meta_twitter_site = "@iir_ws"
     meta_twitter_creator = "@iir_ws"
 
+[markup.goldmark.parser.attribute]
+title = true # default is true; applies to h1-h6 elements
+block = true
+
 [menu]
 
   # Main Navigation Menu
