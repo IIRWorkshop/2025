@@ -9,14 +9,14 @@ description = "venue-information"
 
 Aula Magna Baffi (A0-F), Edificio A, Sant'Ignazio Campus, [Via Sant'Ignazio da Laconi, 74 - 09123 Cagliari CA, Sardinia (Italy)](https://maps.app.goo.gl/jAsFVGoQq82tHuyLA).
 
+{{< img src="/img/touristic/sant_ignazio.jpg" alt="Sant'Ignazio Campus" class="sant-ignazio" >}}
+
 {{< img src="/img/touristic/aula_baffi_1.jpg"  alt="Aula Magna Baffi" class="aula-baffi" >}}
 {{< img src="/img/touristic/aula_baffi_2.jpg" alt="Aula Magna Baffi" class="aula-baffi" >}}
 
 ### Coffee breaks and lunches
 
 Colonna Giardino Baffi, Edificio A, Sant'Ignazio Campus, [Via Sant'Ignazio da Laconi, 74 - 09123 Cagliari CA, Sardinia (Italy)](https://maps.app.goo.gl/jAsFVGoQq82tHuyLA).
-
-{{< img src="/img/touristic/sant_ignazio.jpg" alt="Sant'Ignazio Campus" >}}
 
 ## Directions
 
