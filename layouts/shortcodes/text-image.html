@@ -1,10 +1,7 @@
 <div class="text-image-container">
-  <div class="text-image-content">
-    {{ .Inner }}
-  </div>
   <div class="text-image-figure">
     {{- $imagePath := .Get "src" -}}
-    {{- if and $.Site.Params.isGitHubPages (hasPrefix $imagePath "/img/") -}}
+    {{- if $.Site.Params.isGitHubPages -}}
       {{- $basePath := urls.Parse $.Site.BaseURL -}}
       {{- $pathOnly := $basePath.Path -}}
       {{- if ne $pathOnly "/" -}}
@@ -12,5 +9,8 @@
       {{- end -}}
     {{- end -}}
     <img src="{{ $imagePath }}" alt="{{ .Get "alt" }}">
+  </div>
+  <div class="text-image-content">
+    {{ .Inner }}
   </div>
 </div>

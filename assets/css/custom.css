@@ -659,7 +659,7 @@ body:not(.homepage) .scroll-top {
 }
 
 .text-image-figure {
-  flex: 1;
+  flex: 0.6;
 }
 
 .text-image-figure img {
@@ -676,6 +676,21 @@ body:not(.homepage) .scroll-top {
 
 .about-content p {
   margin-bottom: 1rem;
+}
+
+/* Keynote speaker styling */
+.keynote {
+  padding: 0rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.text-image-content .keynote {
+  flex: 2;
+  font-size: 0.9rem;
+}
+
+.text-image-content .keynote h3 {
+  margin-top: 0;
 }
 
 /* Dropdown menu styling */
