@@ -1,4 +1,4 @@
-<div class="keynote">
+<div id="keynote-{{ .Get "name" | urlize }}" class="keynote">
     <h3><a href="{{ .Get "speaker_url" }}" style="text-decoration: underline;">{{ .Get "name" }}</a>, {{ .Get "affiliation" }}, {{ .Get "country" }}</h3>
     <p><strong>Title:</strong> {{ .Get "title" }}</p>
     <p><strong>Abstract:</strong> {{ .Get "abstract" }}</p>
