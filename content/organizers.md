@@ -37,6 +37,7 @@ The Italian Information Retrieval Workshop 2025 is organized by a dedicated team
 ## Local Organization Chair
 
 {{< organizers >}}
+{{< organizer name="Barbara Carboni" image="carboni.jpeg" affiliation="University of Cagliari" country="Italy" >}}
 {{< organizer name="Silvia Maria Massa" image="massa.jpg" affiliation="University of Cagliari" country="Italy" >}}
 {{< /organizers >}}
 
