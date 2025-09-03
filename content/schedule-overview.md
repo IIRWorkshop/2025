@@ -13,7 +13,7 @@ description = "Overview of the conference schedule"
 | 14:30 - 15:30 | {{< program-invited-talk speaker="Maria Soledad Pera" chair="Ludovico Boratto" url="/keynote-speakers" >}} |
 | 15:30 - 16:00 | **Coffee Break** |
 | 16:00 - 17:30 | {{< program-session id="1" name="Large Language Models and IR" chair="Guglielmo Faggioli" >}} |
-| 19:30 - 23:00 | **Social Dinner** | Teatro Lirico of Cagliari |
+| 20:15 - 23:00 | **Social Dinner** | Teatro Lirico of Cagliari |
 {.schedule-table}
 
 #### Session 1 Papers:
